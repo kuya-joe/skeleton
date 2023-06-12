@@ -1,10 +1,20 @@
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/rdehnhardt/skeleton/master/public/img/logo.png" width="70%">
 </p>
 
-## Disable register
 
-This application has disabled registration page.
+This project is built on top of [Laravel (v6) skeleton](https://github.com/rdehnhardt/skeleton).
+
+## How to register
+
+This application has a disabled registration page. However, I plan to have a `api/signup` page which after email verification is limited.  A completed bio / profile is needed for mod approval to be able to do certain things.
+
+
+### TODO
+- [] Reg page with mod approval 
+
+ut accounts are only activated if email verified and has been approved by another member. 
 
 ## Route system
 
@@ -36,21 +46,6 @@ php artisan migrate --seed
 php artisan storage:link
 ```
 
-# Front-end development
-
-```
-npm install
-```
-
-```
-npm run watch
-```
-
-## Make production
-
-```
-npm run production
-```
 
 # Screenshots
 
